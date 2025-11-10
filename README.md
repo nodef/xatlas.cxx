@@ -2,9 +2,31 @@
 
 [![Actions Status](https://github.com/jpcy/xatlas/workflows/build/badge.svg)](https://github.com/jpcy/xatlas/actions) [![Appveyor CI Build Status](https://ci.appveyor.com/api/projects/status/github/jpcy/xatlas?branch=master&svg=true)](https://ci.appveyor.com/project/jpcy/xatlas) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-xatlas is a small C++11 library with no external dependencies that generates unique texture coordinates suitable for baking lightmaps or texture painting.
+xatlas is a small C++11 library with no external dependencies that generates unique texture coordinates suitable for baking lightmaps or texture painting, by [Jonathan Young](https://github.com/jpcy).
 
 It is an independent fork of [thekla_atlas](https://github.com/Thekla/thekla_atlas), used by [The Witness](https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)).
+
+## Installation
+
+Run:
+```bash
+$ npm i xatlas.cxx
+```
+
+And then include `xatlas.h` as follows:
+```c
+#include "node_modules/xatlas.cxx/source/xatlas/xatlas.h"
+```
+
+You may also want to include `xatlas.cpp` as follows:
+```c
+#ifndef __XATLAS_CXX__
+#define __XATLAS_CXX__
+#include "node_modules/xatlas.cxx/source/xatlas/xatlas.cpp"
+#endif
+```
+
+This will include both the function declaration and their definitions into a single file.
 
 ## Screenshots
 
@@ -137,3 +159,10 @@ Y. O’Donnell. [Precomputed Global Illumination in Frostbite](https://media.con
 ## Models used
 
 [Gazebo model](https://opengameart.org/content/gazebo-0) by Teh_Bucket
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/xatlas.cxx)

@@ -1,0 +1,6 @@
+.github/
+bin/
+appveyor.yml
+source/examples/
+source/test/
+source/thirdparty/
