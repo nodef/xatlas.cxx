@@ -1,0 +1,23 @@
+{
+  "name": "xatlas.cxx",
+  "version": "1.2022.7",
+  "description": "Mesh parameterization / UV unwrapping library; Jonathan Young (2016).",
+  "keywords": [
+    "cxx",
+    "library",
+    "mesh",
+    "parameterization",
+    "uv",
+    "unwrapping"
+  ],
+  "homepage": "https://github.com/nodef/xatlas.cxx#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/xatlas.cxx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/xatlas.cxx.git"
+  },
+  "license": "MIT",
+  "main": "xatlas.h"
+}
