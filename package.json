@@ -1,6 +1,6 @@
 {
   "name": "xatlas.cxx",
-  "version": "1.2022.7",
+  "version": "1.2022.8",
   "description": "Mesh parameterization / UV unwrapping library; Jonathan Young (2016).",
   "keywords": [
     "cxx",
